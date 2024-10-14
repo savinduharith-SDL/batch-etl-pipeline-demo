@@ -22,6 +22,5 @@ The `main.bal` file includes hints to guide you in completing the ETL process fl
 
 **Run the tests:**
     ```sh
-    bal run
     bal test
     ```
