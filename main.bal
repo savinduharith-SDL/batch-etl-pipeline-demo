@@ -1,4 +1,3 @@
-import ballerina/io;
 import ballerina/log;
 import ballerina/sql;
 import ballerina/time;
@@ -36,7 +35,7 @@ function transform(LoanRequest[] loanRequests, LoanApproval[] loanApprovals)
     // Hint: User ballerina integrated queries and transformLoanRequest function
     Loan[] approvedLoans;
 
-    BranchPerformance[] branchPerformance = from var {branch, loanType, grantedAmount, intrest}
+    BranchPerformance[] branchPerformance = from var {branch, loanType, grantedAmount, interest}
         in approvedLoans
         group by branch, loanType
         select {
@@ -44,7 +43,7 @@ function transform(LoanRequest[] loanRequests, LoanApproval[] loanApprovals)
             branch,
             loanType,
             totalGrants: sum(grantedAmount),
-            totalIntrest: sum(intrest),
+            totalInterest: sum(interest),
             date: todayString()
         };
 
@@ -60,7 +59,7 @@ function transformLoanRequest(LoanRequest loanRequest, LoanApproval loanApproval
     log:printInfo(string `START: transform loan request: ${loanRequest.loanRequestId}`);
 
     var {loanRequestId, amount, loanType, datetime, period, branch, status} = loanRequest;
-    var {grantedAmount, intrest, period: approvedPeriod} = loanApproval;
+    var {grantedAmount, interest, period: approvedPeriod} = loanApproval;
 
     // date time related operations
     time:Date date = fromUtcStringToDate(datetime, USA_UTC_OFFSET_IN_SECONDS);
@@ -95,7 +94,7 @@ function transformLoanRequest(LoanRequest loanRequest, LoanApproval loanApproval
         region,
         date: dateString,
         grantedAmount,
-        intrest: totalInterest,
+        interest: totalInterest,
         approvedPeriod,
         loanCatergoryByAmount
     };
@@ -112,24 +111,24 @@ function load([Loan[], BranchPerformance[], RegionPerformance[]] transformResult
 function loadRegionPerformance(RegionPerformance[] data) returns error? {
     sql:ParameterizedQuery[] insertQueries = from RegionPerformance rp in data
         select `INSERT INTO RegionPerformance 
-                (id, region, loanType, date, dayOfWeek, totalGrants, totalIntrest) 
+                (id, region, loanType, date, dayOfWeek, totalGrants, totalInterest) 
                 VALUES (${rp.id}, ${rp.region}, ${rp.loanType}, 
-                ${rp.date}, ${rp.dayOfWeek}, ${rp.totalGrants}, ${rp.totalIntrest})`;
+                ${rp.date}, ${rp.dayOfWeek}, ${rp.totalGrants}, ${rp.totalInterest})`;
    _ = check dbClient->batchExecute(insertQueries);
 }
 
 function loadBranchPerformance(BranchPerformance[] data) returns error? {
     sql:ParameterizedQuery[] insertQueries = from BranchPerformance bp in data
-        select `INSERT INTO BranchPerformance (id, branch, loanType, totalGrants, totalIntrest, date) 
-                VALUES (${bp.id}, ${bp.branch}, ${bp.loanType}, ${bp.totalGrants}, ${bp.totalIntrest}, ${bp.date})`;
+        select `INSERT INTO BranchPerformance (id, branch, loanType, totalGrants, totalInterest, date) 
+                VALUES (${bp.id}, ${bp.branch}, ${bp.loanType}, ${bp.totalGrants}, ${bp.totalInterest}, ${bp.date})`;
     _ = check dbClient->batchExecute(insertQueries);
 }
 
 function loadLoan(Loan[] data) returns error? {
     sql:ParameterizedQuery[] insertQueries = from Loan loan in data
         select `INSERT INTO Loan (loanRequestId, amount, period, branch, status, loanType, 
-        datetime, dayOfWeek, region, date, intrest, grantedAmount, approvedPeriod, loanCatergoryByAmount) 
-        VALUES (${loan.loanRequestId}, ${loan.amount}, ${loan.period}, ${loan.branch}, ${loan.status}, ${loan.loanType}, ${loan.datetime}, ${loan.dayOfWeek}, ${loan.region}, ${loan.date}, ${loan.intrest}, ${loan.grantedAmount}, ${loan.approvedPeriod}, ${loan.loanCatergoryByAmount})`;
+        datetime, dayOfWeek, region, date, interest, grantedAmount, approvedPeriod, loanCatergoryByAmount) 
+        VALUES (${loan.loanRequestId}, ${loan.amount}, ${loan.period}, ${loan.branch}, ${loan.status}, ${loan.loanType}, ${loan.datetime}, ${loan.dayOfWeek}, ${loan.region}, ${loan.date}, ${loan.interest}, ${loan.grantedAmount}, ${loan.approvedPeriod}, ${loan.loanCatergoryByAmount})`;
     _ = check dbClient->batchExecute(insertQueries);
 }
 

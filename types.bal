@@ -11,7 +11,7 @@ type LoanRequest record {|
 type LoanApproval record {|
     int loanRequestId;
     int loanId;
-    decimal intrest;
+    decimal interest;
     decimal grantedAmount;
     int period;
 |};
@@ -27,7 +27,7 @@ type Loan record {|
     DayOfWeek dayOfWeek;
     string region;
     string date;
-    decimal intrest;
+    decimal interest;
     decimal grantedAmount;
     int approvedPeriod;
     LoanCatergotyByAmount loanCatergoryByAmount;
@@ -38,7 +38,7 @@ type BranchPerformance record {|
     string branch;
     LoanType loanType;
     decimal totalGrants;
-    decimal totalIntrest;
+    decimal totalInterest;
     string date;
 |};
 
@@ -49,7 +49,7 @@ type RegionPerformance record {|
     string date;
     DayOfWeek dayOfWeek;
     decimal totalGrants;
-    decimal totalIntrest;
+    decimal totalInterest;
 |};
 
 enum LoanType {

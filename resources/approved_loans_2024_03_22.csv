@@ -1,4 +1,4 @@
-loanRequestId,loanId,intrest,grantedAmount,period
+loanRequestId,loanId,interest,grantedAmount,period
 22393,22393,0.08,31500,17
 22394,22394,0.06,61500,19
 22395,22395,0.08,34000,36

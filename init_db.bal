@@ -10,7 +10,7 @@ function initDB() returns error? {
         branch VARCHAR(191) NOT NULL,
         loanType ENUM('personal', 'educational', 'housing') NOT NULL,
         totalGrants DECIMAL(65,30) NOT NULL,
-        totalIntrest DECIMAL(65,30) NOT NULL,
+        totalInterest DECIMAL(65,30) NOT NULL,
         date VARCHAR(191) NOT NULL,
         PRIMARY KEY(id)
     )`;
@@ -22,7 +22,7 @@ function initDB() returns error? {
         date VARCHAR(191) NOT NULL,
         dayOfWeek ENUM('0', '1', '2', '3', '4', '5', '6') NOT NULL,
         totalGrants DECIMAL(65,30) NOT NULL,
-        totalIntrest DECIMAL(65,30) NOT NULL,
+        totalInterest DECIMAL(65,30) NOT NULL,
         PRIMARY KEY(id)
     )`;
 
@@ -37,7 +37,7 @@ function initDB() returns error? {
         dayOfWeek ENUM('0', '1', '2', '3', '4', '5', '6') NOT NULL,
         region VARCHAR(191) NOT NULL,
         date VARCHAR(191) NOT NULL,
-        intrest DECIMAL(65,30) NOT NULL,
+        interest DECIMAL(65,30) NOT NULL,
         grantedAmount DECIMAL(65,30) NOT NULL,
         approvedPeriod INT NOT NULL,
         loanCatergoryByAmount ENUM('small', 'meduim', 'large') NOT NULL,
