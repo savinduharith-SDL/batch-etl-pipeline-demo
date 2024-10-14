@@ -1,0 +1,529 @@
+loanRequestId,period,amount,datetime,loanType,branch,status
+22393,31500,17,2024-03-18T08:01:14.00Z,housing,Atlanta,approved
+22394,61500,19,2024-03-18T08:05:28.00Z,educational,San Francisco,approved
+22395,34000,36,2024-03-18T08:14:35.00Z,personal,Philadelphia,approved
+22396,44000,44,2024-03-18T08:19:26.00Z,personal,Portland,approved
+22397,35500,27,2024-03-18T08:26:34.00Z,housing,Los Angeles,rejected
+22398,41500,21,2024-03-18T08:27:35.00Z,educational,Kansas City,approved
+22399,69500,46,2024-03-18T08:28:03.00Z,personal,Miami,approved
+22400,16500,58,2024-03-18T08:29:39.00Z,personal,Los Angeles,approved
+22401,41000,24,2024-03-18T08:32:30.00Z,educational,Washington D.C.,approved
+22402,33500,53,2024-03-18T08:34:32.00Z,personal,Seattle,approved
+22403,45500,24,2024-03-18T08:37:35.00Z,housing,Philadelphia,rejected
+22404,21000,19,2024-03-18T08:48:43.00Z,housing,Portland,approved
+22405,61000,50,2024-03-18T08:52:52.00Z,educational,Dallas,approved
+22406,34000,21,2024-03-18T08:55:36.00Z,educational,Washington D.C.,approved
+22407,58500,55,2024-03-18T08:55:47.00Z,educational,Atlanta,approved
+22408,64000,14,2024-03-18T08:56:03.00Z,personal,Boston,approved
+22409,70500,55,2024-03-18T09:03:54.00Z,housing,Philadelphia,rejected
+22410,38500,22,2024-03-18T09:08:05.00Z,housing,Chicago,approved
+22411,26500,44,2024-03-18T09:17:11.00Z,educational,Boston,approved
+22412,28500,44,2024-03-18T09:26:22.00Z,educational,Dallas,approved
+22413,24500,25,2024-03-18T09:32:52.00Z,personal,Atlanta,approved
+22414,63500,29,2024-03-18T09:35:17.00Z,educational,Washington D.C.,approved
+22415,69000,35,2024-03-18T09:38:54.00Z,educational,Boston,approved
+22416,58000,47,2024-03-18T09:39:21.00Z,housing,St. Louis,rejected
+22417,76000,48,2024-03-18T09:50:25.00Z,educational,Miami,approved
+22418,24000,26,2024-03-18T09:51:11.00Z,personal,Orlando,approved
+22419,43500,57,2024-03-18T09:54:02.00Z,personal,Portland,approved
+22420,56500,26,2024-03-18T10:02:19.00Z,educational,St. Louis,approved
+22421,67000,39,2024-03-18T10:07:35.00Z,personal,Los Angeles,approved
+22422,25500,26,2024-03-18T10:07:36.00Z,housing,Los Angeles,rejected
+22423,28500,54,2024-03-18T10:07:42.00Z,personal,Portland,approved
+22424,58500,27,2024-03-18T10:11:47.00Z,personal,St. Louis,approved
+22425,53000,54,2024-03-18T10:12:24.00Z,housing,Miami,rejected
+22426,68000,15,2024-03-18T10:27:12.00Z,housing,Portland,rejected
+22427,51000,55,2024-03-18T10:34:10.00Z,educational,Los Angeles,approved
+22428,24000,23,2024-03-18T10:40:17.00Z,educational,Chicago,approved
+22429,32000,43,2024-03-18T10:40:43.00Z,personal,Orlando,approved
+22430,59000,21,2024-03-18T10:48:15.00Z,personal,Seattle,approved
+22431,63000,38,2024-03-18T10:49:23.00Z,housing,Los Angeles,rejected
+22432,34500,41,2024-03-18T10:49:24.00Z,personal,Dallas,approved
+22433,44500,14,2024-03-18T10:53:01.00Z,personal,San Diego,approved
+22434,21500,39,2024-03-18T10:57:29.00Z,personal,Chicago,approved
+22435,59500,24,2024-03-18T11:04:23.00Z,personal,Washington D.C.,approved
+22436,74000,49,2024-03-18T11:05:07.00Z,educational,Chicago,approved
+22437,27000,56,2024-03-18T11:06:20.00Z,personal,Atlanta,approved
+22438,43500,46,2024-03-18T11:10:19.00Z,educational,Houston,approved
+22439,16500,21,2024-03-18T11:10:45.00Z,educational,Philadelphia,approved
+22440,52000,31,2024-03-18T11:41:53.00Z,personal,Chicago,approved
+22441,76000,54,2024-03-18T11:44:27.00Z,personal,Portland,approved
+22442,23500,19,2024-03-18T11:44:35.00Z,educational,Dallas,approved
+22443,41000,20,2024-03-18T11:46:23.00Z,personal,Chicago,approved
+22444,26000,13,2024-03-18T11:49:10.00Z,educational,San Diego,approved
+22445,49500,31,2024-03-18T11:53:15.00Z,personal,New York City,approved
+22446,73500,36,2024-03-18T11:59:58.00Z,housing,Dallas,approved
+22447,33000,32,2024-03-18T12:08:27.00Z,housing,Washington D.C.,rejected
+22448,43000,23,2024-03-18T12:11:48.00Z,housing,Houston,rejected
+22449,59000,48,2024-03-18T12:31:48.00Z,educational,Los Angeles,approved
+22450,28000,56,2024-03-18T12:33:04.00Z,housing,Chicago,rejected
+22451,51500,27,2024-03-18T12:38:41.00Z,personal,Houston,approved
+22452,66500,51,2024-03-18T12:41:30.00Z,housing,Los Angeles,approved
+22453,17000,55,2024-03-18T12:47:03.00Z,personal,Pittsburgh,approved
+22454,68500,57,2024-03-18T12:47:10.00Z,personal,New York City,approved
+22455,26000,51,2024-03-18T12:50:37.00Z,personal,San Diego,approved
+22456,61000,45,2024-03-18T12:52:19.00Z,personal,Los Angeles,approved
+22457,36000,35,2024-03-18T12:56:05.00Z,personal,Seattle,approved
+22458,46500,45,2024-03-18T12:57:07.00Z,personal,Washington D.C.,approved
+22459,57000,13,2024-03-18T12:57:18.00Z,personal,Houston,approved
+22460,26500,18,2024-03-18T13:02:10.00Z,personal,Houston,approved
+22461,56000,13,2024-03-18T13:06:25.00Z,housing,St. Louis,approved
+22462,46000,55,2024-03-18T13:08:52.00Z,educational,San Francisco,approved
+22463,39000,33,2024-03-18T13:09:10.00Z,educational,Orlando,approved
+22464,41500,34,2024-03-18T13:12:54.00Z,personal,San Francisco,approved
+22465,51500,24,2024-03-18T13:13:16.00Z,educational,Miami,approved
+22466,61500,42,2024-03-18T13:21:14.00Z,personal,Philadelphia,approved
+22467,46000,19,2024-03-18T13:29:11.00Z,personal,Los Angeles,approved
+22468,60500,29,2024-03-18T13:30:38.00Z,housing,Washington D.C.,rejected
+22469,69000,40,2024-03-18T13:44:43.00Z,personal,Boston,approved
+22470,53500,51,2024-03-18T13:45:05.00Z,personal,Pittsburgh,approved
+22471,50500,27,2024-03-18T13:47:08.00Z,housing,Los Angeles,rejected
+22472,68500,52,2024-03-18T13:52:28.00Z,educational,San Diego,approved
+22473,39000,37,2024-03-18T13:55:29.00Z,personal,Portland,approved
+22474,56500,53,2024-03-18T13:55:56.00Z,personal,St. Louis,approved
+22475,39500,52,2024-03-18T14:01:39.00Z,personal,Los Angeles,approved
+22476,51000,42,2024-03-18T14:04:15.00Z,personal,New York City,approved
+22477,23000,38,2024-03-18T14:08:56.00Z,housing,Los Angeles,rejected
+22478,18500,40,2024-03-18T14:09:50.00Z,personal,Los Angeles,approved
+22479,29000,25,2024-03-18T14:11:06.00Z,personal,Boston,approved
+22480,75500,17,2024-03-18T14:11:15.00Z,housing,Portland,rejected
+22481,42000,37,2024-03-18T14:11:21.00Z,personal,Chicago,approved
+22482,33500,35,2024-03-18T14:11:50.00Z,educational,Seattle,approved
+22483,63500,22,2024-03-18T14:27:37.00Z,personal,Seattle,approved
+22484,74000,29,2024-03-18T14:38:06.00Z,personal,Orlando,approved
+22485,23500,54,2024-03-18T14:41:26.00Z,personal,Boston,approved
+22486,21500,15,2024-03-18T14:45:48.00Z,educational,San Diego,approved
+22487,18000,58,2024-03-18T14:48:52.00Z,housing,Orlando,rejected
+22488,49000,42,2024-03-18T14:57:37.00Z,housing,Dallas,approved
+22489,22000,46,2024-03-18T14:57:39.00Z,personal,Seattle,approved
+22490,74500,17,2024-03-18T14:58:38.00Z,personal,San Francisco,approved
+22491,40500,37,2024-03-18T15:07:20.00Z,housing,Pittsburgh,rejected
+22492,71000,48,2024-03-18T15:24:46.00Z,personal,Chicago,approved
+22493,44000,24,2024-03-18T15:42:42.00Z,educational,Boston,approved
+22494,62000,35,2024-03-18T15:46:08.00Z,personal,Kansas City,approved
+22495,61000,52,2024-03-19T08:04:34.00Z,personal,St. Louis,approved
+22496,17000,31,2024-03-19T08:16:03.00Z,personal,Kansas City,approved
+22497,40500,46,2024-03-19T08:25:35.00Z,housing,New York City,rejected
+22498,26500,52,2024-03-19T08:25:51.00Z,educational,San Diego,approved
+22499,51500,19,2024-03-19T08:37:47.00Z,educational,Orlando,approved
+22500,67000,25,2024-03-19T08:38:33.00Z,personal,Pittsburgh,approved
+22501,45500,59,2024-03-19T08:47:06.00Z,housing,Chicago,rejected
+22502,71000,42,2024-03-19T08:49:18.00Z,personal,Atlanta,approved
+22503,50500,52,2024-03-19T08:49:58.00Z,housing,Atlanta,rejected
+22504,77000,30,2024-03-19T08:51:57.00Z,personal,Washington D.C.,approved
+22505,24000,18,2024-03-19T08:55:48.00Z,personal,Orlando,approved
+22506,41000,21,2024-03-19T09:01:23.00Z,educational,Orlando,approved
+22507,84500,47,2024-03-19T09:07:17.00Z,personal,Los Angeles,approved
+22508,59000,49,2024-03-19T09:12:53.00Z,personal,Philadelphia,approved
+22509,18000,39,2024-03-19T09:15:08.00Z,housing,San Diego,rejected
+22510,68500,38,2024-03-19T09:18:40.00Z,personal,Houston,approved
+22511,63000,14,2024-03-19T09:22:17.00Z,housing,Los Angeles,rejected
+22512,16500,14,2024-03-19T09:31:56.00Z,personal,Los Angeles,approved
+22513,59000,19,2024-03-19T09:34:38.00Z,educational,Pittsburgh,approved
+22514,86000,57,2024-03-19T09:46:05.00Z,personal,Los Angeles,approved
+22515,62000,49,2024-03-19T09:46:07.00Z,personal,Boston,approved
+22516,36000,57,2024-03-19T09:49:42.00Z,personal,Portland,approved
+22517,79500,33,2024-03-19T09:50:01.00Z,personal,Orlando,approved
+22518,85500,16,2024-03-19T09:55:51.00Z,housing,Washington D.C.,approved
+22519,21500,27,2024-03-19T09:56:17.00Z,educational,Dallas,approved
+22520,44000,27,2024-03-19T10:12:12.00Z,personal,New York City,approved
+22521,28500,46,2024-03-19T10:12:50.00Z,educational,Dallas,approved
+22522,24500,55,2024-03-19T10:13:29.00Z,personal,Portland,approved
+22523,63500,16,2024-03-19T10:13:47.00Z,personal,Seattle,approved
+22524,16500,56,2024-03-19T10:14:44.00Z,educational,Miami,approved
+22525,81500,26,2024-03-19T10:25:05.00Z,personal,San Diego,approved
+22526,34000,32,2024-03-19T10:32:30.00Z,educational,Kansas City,approved
+22527,34000,30,2024-03-19T10:34:21.00Z,personal,Chicago,approved
+22528,61000,42,2024-03-19T10:38:24.00Z,educational,Washington D.C.,approved
+22529,51000,23,2024-03-19T10:50:38.00Z,personal,Atlanta,approved
+22530,41500,24,2024-03-19T10:53:40.00Z,educational,Philadelphia,approved
+22531,42000,44,2024-03-19T10:53:58.00Z,personal,New York City,approved
+22532,73500,27,2024-03-19T10:56:11.00Z,housing,Los Angeles,approved
+22533,61500,49,2024-03-19T10:57:42.00Z,educational,San Francisco,approved
+22534,58500,43,2024-03-19T11:05:21.00Z,personal,Washington D.C.,approved
+22535,23500,39,2024-03-19T11:14:42.00Z,educational,San Francisco,approved
+22536,23000,23,2024-03-19T11:20:57.00Z,housing,Seattle,rejected
+22537,60500,59,2024-03-19T11:21:05.00Z,housing,Seattle,rejected
+22538,27000,48,2024-03-19T11:28:29.00Z,personal,Miami,approved
+22539,53500,58,2024-03-19T11:29:13.00Z,personal,Atlanta,approved
+22540,46500,48,2024-03-19T11:30:11.00Z,personal,Los Angeles,approved
+22541,39000,55,2024-03-19T11:33:20.00Z,personal,St. Louis,approved
+22542,32000,17,2024-03-19T11:37:24.00Z,personal,Pittsburgh,approved
+22543,75500,47,2024-03-19T11:41:51.00Z,housing,Dallas,approved
+22544,57000,55,2024-03-19T11:48:41.00Z,personal,New York City,approved
+22545,43000,58,2024-03-19T11:49:04.00Z,housing,Chicago,rejected
+22546,69500,45,2024-03-19T11:50:35.00Z,personal,Chicago,approved
+22547,78500,55,2024-03-19T11:53:08.00Z,personal,Seattle,approved
+22548,63500,46,2024-03-19T11:53:34.00Z,educational,Miami,approved
+22549,43500,38,2024-03-19T11:56:02.00Z,personal,Philadelphia,approved
+22550,68500,37,2024-03-19T11:56:33.00Z,educational,St. Louis,approved
+22551,39500,40,2024-03-19T11:57:36.00Z,personal,Los Angeles,approved
+22552,64000,39,2024-03-19T12:03:48.00Z,personal,Orlando,approved
+22553,74500,15,2024-03-19T12:10:55.00Z,personal,Seattle,approved
+22554,81000,31,2024-03-19T12:12:32.00Z,educational,Boston,approved
+22555,26500,59,2024-03-19T12:12:54.00Z,personal,San Francisco,approved
+22556,28500,15,2024-03-19T12:22:04.00Z,personal,Chicago,approved
+22557,33500,39,2024-03-19T12:23:14.00Z,personal,Miami,approved
+22558,53000,45,2024-03-19T12:26:22.00Z,housing,Portland,rejected
+22559,58000,16,2024-03-19T12:27:43.00Z,housing,Seattle,rejected
+22560,35500,55,2024-03-19T12:27:54.00Z,housing,Boston,rejected
+22561,69000,13,2024-03-19T12:32:03.00Z,personal,Washington D.C.,approved
+22562,44500,23,2024-03-19T12:34:53.00Z,personal,Chicago,approved
+22563,68000,52,2024-03-19T12:49:58.00Z,housing,Houston,approved
+22564,58500,49,2024-03-19T12:51:33.00Z,educational,St. Louis,approved
+22565,33000,15,2024-03-19T12:51:50.00Z,housing,Chicago,rejected
+22566,49000,40,2024-03-19T12:53:33.00Z,housing,Miami,approved
+22567,26000,24,2024-03-19T12:53:53.00Z,educational,Kansas City,approved
+22568,56500,22,2024-03-19T13:01:04.00Z,educational,Los Angeles,approved
+22569,81000,49,2024-03-19T13:01:11.00Z,personal,San Diego,approved
+22570,31500,46,2024-03-19T13:03:42.00Z,housing,Los Angeles,approved
+22571,86500,51,2024-03-19T13:07:37.00Z,personal,Seattle,approved
+22572,41500,50,2024-03-19T13:11:40.00Z,personal,Washington D.C.,approved
+22573,61500,37,2024-03-19T13:15:05.00Z,personal,Los Angeles,approved
+22574,76500,19,2024-03-19T13:16:15.00Z,educational,Kansas City,approved
+22575,44000,36,2024-03-19T13:23:06.00Z,educational,Portland,approved
+22576,70500,12,2024-03-19T13:25:24.00Z,housing,Pittsburgh,approved
+22577,46000,43,2024-03-19T13:28:07.00Z,educational,Chicago,approved
+22578,25500,35,2024-03-19T13:29:56.00Z,housing,San Francisco,rejected
+22579,24000,52,2024-03-19T13:33:36.00Z,educational,Miami,approved
+22580,80500,54,2024-03-19T13:37:16.00Z,housing,Houston,approved
+22581,34500,19,2024-03-19T13:40:20.00Z,personal,Chicago,approved
+22582,46000,56,2024-03-19T13:42:53.00Z,personal,St. Louis,approved
+22583,76500,52,2024-03-19T13:44:14.00Z,personal,Seattle,approved
+22584,76000,19,2024-03-19T13:53:50.00Z,personal,Miami,approved
+22585,28000,38,2024-03-19T13:55:38.00Z,housing,St. Louis,rejected
+22586,52000,26,2024-03-19T13:57:14.00Z,personal,Dallas,approved
+22587,86500,32,2024-03-19T13:57:42.00Z,educational,Chicago,approved
+22588,76000,14,2024-03-19T13:59:15.00Z,educational,Washington D.C.,approved
+22589,74000,16,2024-03-19T14:03:39.00Z,educational,Philadelphia,approved
+22590,43500,42,2024-03-19T14:04:30.00Z,educational,Orlando,approved
+22591,79000,45,2024-03-19T14:08:32.00Z,personal,Portland,approved
+22592,21000,59,2024-03-19T14:20:01.00Z,housing,Miami,approved
+22593,22000,50,2024-03-19T14:21:45.00Z,personal,Houston,approved
+22594,26000,27,2024-03-19T14:26:04.00Z,personal,St. Louis,approved
+22595,69000,43,2024-03-19T14:34:22.00Z,educational,San Francisco,approved
+22596,39000,53,2024-03-19T14:37:29.00Z,educational,New York City,approved
+22597,49500,59,2024-03-19T14:37:56.00Z,personal,Miami,approved
+22598,66500,30,2024-03-19T14:44:23.00Z,housing,Houston,approved
+22599,29000,24,2024-03-19T14:46:37.00Z,personal,Portland,approved
+22600,86000,37,2024-03-19T14:49:51.00Z,educational,Kansas City,approved
+22601,51500,18,2024-03-19T14:49:55.00Z,personal,Los Angeles,approved
+22602,33500,25,2024-03-19T14:51:15.00Z,educational,Houston,approved
+22603,74000,15,2024-03-19T14:54:12.00Z,personal,San Diego,approved
+22604,78500,52,2024-03-19T14:56:09.00Z,educational,Washington D.C.,approved
+22605,56500,29,2024-03-19T14:59:38.00Z,personal,Chicago,approved
+22606,84000,19,2024-03-19T15:01:04.00Z,housing,Washington D.C.,approved
+22607,41000,29,2024-03-19T15:03:02.00Z,personal,Washington D.C.,approved
+22608,23500,25,2024-03-19T15:04:57.00Z,personal,Kansas City,approved
+22609,78000,54,2024-03-19T15:05:32.00Z,housing,Atlanta,approved
+22610,51000,54,2024-03-19T15:11:58.00Z,educational,Boston,approved
+22611,56000,28,2024-03-19T15:15:27.00Z,housing,Orlando,approved
+22612,59500,53,2024-03-19T15:16:58.00Z,personal,San Francisco,approved
+22613,18500,39,2024-03-19T15:24:27.00Z,personal,San Diego,approved
+22614,79000,31,2024-03-19T15:30:39.00Z,educational,San Francisco,approved
+22615,21500,56,2024-03-19T15:49:52.00Z,personal,Los Angeles,approved
+22616,38500,47,2024-03-19T15:54:51.00Z,housing,New York City,approved
+22617,18000,59,2024-03-20T08:04:25.00Z,housing,Kansas City,rejected
+22618,16500,34,2024-03-20T08:12:35.00Z,educational,Atlanta,approved
+22619,59000,33,2024-03-20T08:19:11.00Z,educational,San Francisco,approved
+22620,46000,37,2024-03-20T08:23:14.00Z,educational,Seattle,approved
+22621,44000,42,2024-03-20T08:25:31.00Z,educational,Chicago,approved
+22622,51500,32,2024-03-20T08:27:41.00Z,educational,St. Louis,approved
+22623,36000,30,2024-03-20T08:30:26.00Z,personal,Miami,approved
+22624,23500,34,2024-03-20T08:40:38.00Z,personal,Washington D.C.,approved
+22625,70500,25,2024-03-20T08:48:29.00Z,housing,Dallas,rejected
+22626,61000,22,2024-03-20T08:49:57.00Z,personal,San Francisco,approved
+22627,24000,50,2024-03-20T09:03:23.00Z,personal,Philadelphia,approved
+22628,74000,32,2024-03-20T09:04:01.00Z,personal,Portland,approved
+22629,53000,40,2024-03-20T09:06:04.00Z,housing,St. Louis,rejected
+22630,38500,19,2024-03-20T09:06:09.00Z,housing,San Francisco,approved
+22631,23500,50,2024-03-20T09:08:52.00Z,educational,Philadelphia,approved
+22632,58500,26,2024-03-20T09:09:21.00Z,educational,Los Angeles,approved
+22633,44500,38,2024-03-20T09:23:34.00Z,personal,Washington D.C.,approved
+22634,28000,18,2024-03-20T09:30:15.00Z,housing,Orlando,rejected
+22635,69000,51,2024-03-20T09:49:01.00Z,personal,Washington D.C.,approved
+22636,69000,12,2024-03-20T09:56:25.00Z,educational,Dallas,approved
+22637,66500,55,2024-03-20T10:04:48.00Z,housing,Philadelphia,approved
+22638,56500,15,2024-03-20T10:05:57.00Z,educational,Boston,approved
+22639,26000,37,2024-03-20T10:20:37.00Z,personal,Miami,approved
+22640,22000,41,2024-03-20T10:30:09.00Z,personal,Seattle,approved
+22641,41000,50,2024-03-20T10:30:50.00Z,educational,Washington D.C.,approved
+22642,17000,56,2024-03-20T10:35:07.00Z,personal,Seattle,approved
+22643,61000,27,2024-03-20T10:39:11.00Z,educational,Kansas City,approved
+22644,68000,49,2024-03-20T10:46:36.00Z,housing,San Diego,rejected
+22645,21000,15,2024-03-20T10:46:49.00Z,housing,Orlando,approved
+22646,67000,31,2024-03-20T10:55:23.00Z,personal,San Diego,approved
+22647,26000,55,2024-03-20T11:10:40.00Z,educational,San Diego,approved
+22648,58000,49,2024-03-20T11:15:33.00Z,housing,San Francisco,rejected
+22649,31500,15,2024-03-20T11:28:34.00Z,housing,Orlando,approved
+22650,45500,24,2024-03-20T11:32:43.00Z,housing,Miami,rejected
+22651,68500,51,2024-03-20T11:38:01.00Z,educational,San Francisco,approved
+22652,57000,34,2024-03-20T11:49:23.00Z,personal,Pittsburgh,approved
+22653,23000,38,2024-03-20T11:54:06.00Z,housing,Washington D.C.,rejected
+22654,33500,53,2024-03-20T11:57:50.00Z,educational,San Francisco,approved
+22655,43500,26,2024-03-20T12:04:10.00Z,educational,Washington D.C.,approved
+22656,73500,27,2024-03-20T12:07:27.00Z,housing,Philadelphia,approved
+22657,51000,49,2024-03-20T12:10:06.00Z,personal,Atlanta,approved
+22658,46500,57,2024-03-20T12:10:14.00Z,personal,Chicago,approved
+22659,44000,21,2024-03-20T12:10:53.00Z,personal,Chicago,approved
+22660,34000,23,2024-03-20T12:13:21.00Z,personal,Chicago,approved
+22661,33500,14,2024-03-20T12:16:51.00Z,personal,Atlanta,approved
+22662,49500,50,2024-03-20T12:17:28.00Z,personal,St. Louis,approved
+22663,49000,41,2024-03-20T12:18:29.00Z,housing,Miami,approved
+22664,43000,35,2024-03-20T12:19:49.00Z,housing,Miami,rejected
+22665,34500,54,2024-03-20T12:22:07.00Z,personal,Los Angeles,approved
+22666,69500,57,2024-03-20T12:28:46.00Z,personal,San Francisco,approved
+22667,42000,55,2024-03-20T12:32:18.00Z,personal,Los Angeles,approved
+22668,41000,43,2024-03-20T12:36:06.00Z,personal,Dallas,approved
+22669,33000,17,2024-03-20T12:55:22.00Z,housing,Seattle,rejected
+22670,18500,51,2024-03-20T12:56:51.00Z,personal,Portland,approved
+22671,63500,25,2024-03-20T12:58:45.00Z,personal,Los Angeles,approved
+22672,29000,56,2024-03-20T13:08:52.00Z,personal,New York City,approved
+22673,25500,42,2024-03-20T13:14:49.00Z,housing,Dallas,rejected
+22674,56500,43,2024-03-20T13:16:16.00Z,personal,Boston,approved
+22675,27000,38,2024-03-20T13:19:21.00Z,personal,Miami,approved
+22676,68500,28,2024-03-20T13:24:04.00Z,personal,Kansas City,approved
+22677,26500,17,2024-03-20T13:25:01.00Z,educational,Portland,approved
+22678,26500,16,2024-03-20T13:25:34.00Z,personal,San Francisco,approved
+22679,64000,39,2024-03-20T13:33:51.00Z,personal,Chicago,approved
+22680,41500,19,2024-03-20T13:39:54.00Z,personal,Seattle,approved
+22681,50500,45,2024-03-20T13:45:52.00Z,housing,Houston,rejected
+22682,58500,27,2024-03-20T13:54:32.00Z,personal,Orlando,approved
+22683,46000,36,2024-03-20T13:55:53.00Z,personal,Portland,approved
+22684,40500,19,2024-03-20T13:58:28.00Z,housing,Portland,rejected
+22685,16500,45,2024-03-20T13:59:16.00Z,personal,Pittsburgh,approved
+22686,60500,31,2024-03-20T14:02:20.00Z,housing,San Francisco,rejected
+22687,61500,40,2024-03-20T14:19:38.00Z,educational,San Diego,approved
+22688,21500,28,2024-03-20T14:20:27.00Z,personal,Orlando,approved
+22689,61500,14,2024-03-20T14:24:31.00Z,personal,New York City,approved
+22690,35500,40,2024-03-20T14:25:31.00Z,housing,St. Louis,rejected
+22691,32000,19,2024-03-20T14:30:42.00Z,personal,St. Louis,approved
+22692,71000,53,2024-03-20T14:31:02.00Z,personal,Atlanta,approved
+22693,53500,14,2024-03-20T14:37:53.00Z,personal,Kansas City,approved
+22694,51000,33,2024-03-20T14:38:43.00Z,educational,Los Angeles,approved
+22695,59500,32,2024-03-20T14:42:28.00Z,personal,Pittsburgh,approved
+22696,39000,17,2024-03-20T14:44:27.00Z,educational,San Diego,approved
+22697,24500,17,2024-03-20T14:45:53.00Z,personal,Houston,approved
+22698,62000,50,2024-03-20T14:52:19.00Z,personal,Philadelphia,approved
+22699,51500,42,2024-03-20T14:54:10.00Z,personal,Philadelphia,approved
+22700,28500,59,2024-03-20T14:54:26.00Z,personal,New York City,approved
+22701,59000,31,2024-03-20T14:54:59.00Z,personal,Chicago,approved
+22702,52000,43,2024-03-20T14:55:04.00Z,personal,Seattle,approved
+22703,39500,55,2024-03-20T14:58:17.00Z,personal,Seattle,approved
+22704,39000,23,2024-03-20T15:18:59.00Z,personal,New York City,approved
+22705,43500,34,2024-03-20T15:19:47.00Z,personal,San Diego,approved
+22706,24000,50,2024-03-20T15:22:57.00Z,educational,Dallas,approved
+22707,21500,42,2024-03-20T15:33:59.00Z,educational,Houston,approved
+22708,28500,40,2024-03-20T15:35:10.00Z,educational,Los Angeles,approved
+22709,63500,57,2024-03-20T15:40:43.00Z,educational,Portland,approved
+22710,56000,31,2024-03-20T15:44:02.00Z,housing,Dallas,approved
+22711,34000,52,2024-03-20T15:44:32.00Z,educational,San Francisco,approved
+22712,41500,46,2024-03-20T15:47:52.00Z,educational,Washington D.C.,approved
+22713,63000,33,2024-03-20T15:52:42.00Z,housing,Boston,rejected
+22714,49500,55,2024-03-21T08:05:32.00Z,personal,St. Louis,approved
+22715,18500,33,2024-03-21T08:10:14.00Z,personal,Miami,approved
+22716,52000,30,2024-03-21T08:19:19.00Z,personal,Chicago,approved
+22717,28000,12,2024-03-21T08:31:31.00Z,housing,Boston,rejected
+22718,63000,42,2024-03-21T08:36:47.00Z,housing,Seattle,rejected
+22719,39000,13,2024-03-21T08:51:41.00Z,educational,New York City,approved
+22720,22000,21,2024-03-21T09:01:48.00Z,personal,Chicago,approved
+22721,76500,20,2024-03-21T09:03:12.00Z,personal,Pittsburgh,approved
+22722,61500,12,2024-03-21T09:03:28.00Z,educational,Houston,approved
+22723,32000,35,2024-03-21T09:05:42.00Z,personal,Dallas,approved
+22724,61000,32,2024-03-21T09:18:54.00Z,educational,San Francisco,approved
+22725,59000,36,2024-03-21T09:24:07.00Z,personal,New York City,approved
+22726,56500,55,2024-03-21T09:28:10.00Z,educational,Portland,approved
+22727,23000,58,2024-03-21T09:28:37.00Z,housing,Seattle,rejected
+22728,57000,26,2024-03-21T09:37:51.00Z,personal,Los Angeles,approved
+22729,44500,16,2024-03-21T09:40:51.00Z,personal,Houston,approved
+22730,56500,34,2024-03-21T09:44:02.00Z,personal,Portland,approved
+22731,23500,55,2024-03-21T09:51:26.00Z,personal,Boston,approved
+22732,43000,31,2024-03-21T09:53:06.00Z,housing,Chicago,rejected
+22733,41500,25,2024-03-21T09:54:50.00Z,personal,Houston,approved
+22734,39500,21,2024-03-21T10:08:14.00Z,personal,Chicago,approved
+22735,41000,52,2024-03-21T10:08:26.00Z,educational,San Francisco,approved
+22736,35500,19,2024-03-21T10:16:17.00Z,housing,Philadelphia,rejected
+22737,63500,24,2024-03-21T10:18:57.00Z,educational,Philadelphia,approved
+22738,69000,19,2024-03-21T10:20:20.00Z,educational,Philadelphia,approved
+22739,58500,32,2024-03-21T10:24:06.00Z,educational,Chicago,approved
+22740,63500,17,2024-03-21T10:27:43.00Z,personal,St. Louis,approved
+22741,74000,37,2024-03-21T10:41:15.00Z,personal,Dallas,approved
+22742,62000,46,2024-03-21T10:43:21.00Z,personal,Portland,approved
+22743,68500,26,2024-03-21T10:45:51.00Z,educational,New York City,approved
+22744,58000,47,2024-03-21T10:47:46.00Z,housing,Dallas,rejected
+22745,79000,15,2024-03-21T10:51:07.00Z,personal,Los Angeles,approved
+22746,43500,38,2024-03-21T10:51:21.00Z,educational,Los Angeles,approved
+22747,61500,56,2024-03-21T10:57:26.00Z,personal,Los Angeles,approved
+22748,70500,29,2024-03-21T11:04:55.00Z,housing,Philadelphia,rejected
+22749,26500,50,2024-03-21T11:11:18.00Z,educational,Orlando,approved
+22750,51500,31,2024-03-21T11:12:58.00Z,personal,Seattle,approved
+22751,50500,27,2024-03-21T11:13:14.00Z,housing,Miami,rejected
+22752,64000,59,2024-03-21T11:18:15.00Z,personal,Dallas,approved
+22753,33500,48,2024-03-21T11:22:05.00Z,educational,San Diego,approved
+22754,71000,45,2024-03-21T11:31:13.00Z,personal,Portland,approved
+22755,49000,39,2024-03-21T11:33:06.00Z,housing,Atlanta,approved
+22756,45500,49,2024-03-21T11:33:12.00Z,housing,Los Angeles,rejected
+22757,68500,19,2024-03-21T11:37:39.00Z,personal,Boston,approved
+22758,24000,59,2024-03-21T11:42:08.00Z,educational,Atlanta,approved
+22759,59500,25,2024-03-21T11:43:02.00Z,personal,Chicago,approved
+22760,25500,37,2024-03-21T11:46:04.00Z,housing,Chicago,rejected
+22761,53500,41,2024-03-21T11:53:15.00Z,personal,Los Angeles,approved
+22762,78500,32,2024-03-21T11:56:57.00Z,educational,Kansas City,approved
+22763,43500,42,2024-03-21T12:01:20.00Z,personal,Atlanta,approved
+22764,78500,44,2024-03-21T12:03:43.00Z,personal,Atlanta,approved
+22765,28500,56,2024-03-21T12:04:20.00Z,educational,Seattle,approved
+22766,67000,16,2024-03-21T12:10:31.00Z,personal,Portland,approved
+22767,68000,20,2024-03-21T12:19:50.00Z,housing,San Diego,rejected
+22768,42000,26,2024-03-21T12:20:22.00Z,personal,Houston,approved
+22769,41500,29,2024-03-21T12:20:34.00Z,educational,Portland,approved
+22770,51500,48,2024-03-21T12:34:29.00Z,educational,New York City,approved
+22771,16500,23,2024-03-21T12:46:29.00Z,educational,Orlando,approved
+22772,46500,15,2024-03-21T12:54:13.00Z,personal,Boston,approved
+22773,26000,14,2024-03-21T12:57:43.00Z,personal,Pittsburgh,approved
+22774,21500,13,2024-03-21T12:58:41.00Z,educational,Orlando,approved
+22775,34000,25,2024-03-21T12:58:58.00Z,educational,Philadelphia,approved
+22776,27000,34,2024-03-21T13:01:53.00Z,personal,Philadelphia,approved
+22777,41000,52,2024-03-21T13:04:56.00Z,personal,Washington D.C.,approved
+22778,53000,33,2024-03-21T13:10:43.00Z,housing,Portland,rejected
+22779,39000,51,2024-03-21T13:11:01.00Z,personal,San Francisco,approved
+22780,73500,12,2024-03-21T13:16:19.00Z,housing,Orlando,approved
+22781,77000,31,2024-03-21T13:17:06.00Z,personal,San Diego,approved
+22782,21500,13,2024-03-21T13:20:11.00Z,personal,Portland,approved
+22783,69500,44,2024-03-21T13:22:05.00Z,personal,Miami,approved
+22784,23500,57,2024-03-21T13:25:29.00Z,educational,San Francisco,approved
+22785,34000,31,2024-03-21T13:34:00.00Z,personal,Atlanta,approved
+22786,29000,26,2024-03-21T13:34:18.00Z,personal,San Francisco,approved
+22787,46000,44,2024-03-21T13:38:29.00Z,personal,Miami,approved
+22788,44000,26,2024-03-21T13:40:26.00Z,personal,Orlando,approved
+22789,74000,43,2024-03-21T13:42:28.00Z,educational,Miami,approved
+22790,60500,51,2024-03-21T13:50:30.00Z,housing,Miami,rejected
+22791,69000,19,2024-03-21T13:50:30.00Z,personal,Dallas,approved
+22792,31500,12,2024-03-21T13:52:25.00Z,housing,Washington D.C.,approved
+22793,18000,53,2024-03-21T13:54:34.00Z,housing,St. Louis,rejected
+22794,26000,58,2024-03-21T13:58:00.00Z,educational,Dallas,approved
+22795,34500,22,2024-03-21T14:01:36.00Z,personal,Houston,approved
+22796,33500,57,2024-03-21T14:05:49.00Z,personal,Orlando,approved
+22797,26500,39,2024-03-21T14:09:23.00Z,personal,St. Louis,approved
+22798,51000,16,2024-03-21T14:10:02.00Z,educational,Philadelphia,approved
+22799,38500,47,2024-03-21T14:13:14.00Z,housing,Chicago,approved
+22800,17000,52,2024-03-21T14:15:48.00Z,personal,Orlando,approved
+22801,33000,42,2024-03-21T14:17:35.00Z,housing,Atlanta,rejected
+22802,46000,57,2024-03-21T14:20:10.00Z,educational,Seattle,approved
+22803,40500,36,2024-03-21T14:20:21.00Z,housing,New York City,rejected
+22804,78000,20,2024-03-21T14:23:40.00Z,housing,New York City,rejected
+22805,36000,44,2024-03-21T14:28:37.00Z,personal,San Diego,approved
+22806,66500,22,2024-03-21T14:33:42.00Z,housing,Portland,approved
+22807,24000,35,2024-03-21T14:42:43.00Z,personal,Boston,approved
+22808,76000,46,2024-03-21T14:42:48.00Z,educational,San Francisco,approved
+22809,58500,56,2024-03-21T14:50:11.00Z,personal,Portland,approved
+22810,59000,18,2024-03-21T14:50:23.00Z,educational,San Francisco,approved
+22811,76000,49,2024-03-21T14:52:46.00Z,personal,Orlando,approved
+22812,61000,58,2024-03-21T14:53:50.00Z,personal,Houston,approved
+22813,28500,38,2024-03-21T14:55:22.00Z,personal,Seattle,approved
+22814,21000,16,2024-03-21T15:05:31.00Z,housing,Portland,approved
+22815,75500,58,2024-03-21T15:27:07.00Z,housing,Houston,rejected
+22816,24500,52,2024-03-21T15:33:09.00Z,personal,Boston,approved
+22817,16500,34,2024-03-21T15:33:49.00Z,personal,Atlanta,approved
+22818,51000,40,2024-03-21T15:37:46.00Z,personal,Portland,approved
+22819,56000,24,2024-03-21T15:38:56.00Z,housing,Chicago,approved
+22820,76500,16,2024-03-21T15:54:10.00Z,educational,Atlanta,approved
+22821,74500,23,2024-03-21T15:56:07.00Z,personal,Boston,approved
+22822,44000,53,2024-03-21T15:59:50.00Z,educational,Los Angeles,approved
+22823,21500,48,2024-03-22T08:05:32.00Z,educational,Los Angeles,approved
+22824,43500,36,2024-03-22T08:20:06.00Z,personal,San Francisco,approved
+22825,26500,12,2024-03-22T08:26:26.00Z,educational,Orlando,approved
+22826,68500,19,2024-03-22T08:27:44.00Z,educational,Miami,approved
+22827,58500,57,2024-03-22T08:36:38.00Z,educational,Philadelphia,approved
+22828,41500,19,2024-03-22T08:37:03.00Z,educational,Miami,approved
+22829,34000,52,2024-03-22T09:07:21.00Z,personal,San Diego,approved
+22830,63500,53,2024-03-22T09:09:45.00Z,personal,Chicago,approved
+22831,56500,54,2024-03-22T09:10:01.00Z,personal,Portland,approved
+22832,40500,56,2024-03-22T09:17:09.00Z,housing,Dallas,rejected
+22833,68000,39,2024-03-22T09:19:03.00Z,housing,Los Angeles,approved
+22834,59000,39,2024-03-22T09:19:17.00Z,educational,Chicago,approved
+22835,34500,46,2024-03-22T09:22:42.00Z,personal,New York City,approved
+22836,49000,19,2024-03-22T09:31:46.00Z,housing,Houston,approved
+22837,71000,20,2024-03-22T09:37:14.00Z,personal,San Diego,approved
+22838,61000,33,2024-03-22T09:39:53.00Z,educational,Kansas City,approved
+22839,59500,30,2024-03-22T09:59:13.00Z,personal,St. Louis,approved
+22840,39000,32,2024-03-22T10:02:20.00Z,educational,Philadelphia,approved
+22841,29000,57,2024-03-22T10:06:29.00Z,personal,St. Louis,approved
+22842,28000,49,2024-03-22T10:07:31.00Z,housing,Pittsburgh,rejected
+22843,59000,51,2024-03-22T10:08:06.00Z,personal,Houston,approved
+22844,18500,33,2024-03-22T10:09:08.00Z,personal,Miami,approved
+22845,22000,40,2024-03-22T10:15:20.00Z,personal,Seattle,approved
+22846,17000,48,2024-03-22T10:21:16.00Z,personal,Miami,approved
+22847,56500,20,2024-03-22T10:29:15.00Z,educational,Atlanta,approved
+22848,63500,43,2024-03-22T10:29:40.00Z,educational,St. Louis,approved
+22849,16500,21,2024-03-22T10:30:17.00Z,personal,Philadelphia,approved
+22850,33500,32,2024-03-22T10:30:20.00Z,educational,San Diego,approved
+22851,41500,50,2024-03-22T10:36:09.00Z,personal,Kansas City,approved
+22852,69000,51,2024-03-22T10:39:18.00Z,educational,Washington D.C.,approved
+22853,51000,16,2024-03-22T10:43:58.00Z,personal,Miami,approved
+22854,27000,30,2024-03-22T10:51:35.00Z,personal,San Francisco,approved
+22855,46000,50,2024-03-22T10:52:24.00Z,educational,Los Angeles,approved
+22856,62000,51,2024-03-22T10:54:02.00Z,personal,Houston,approved
+22857,61500,58,2024-03-22T10:56:04.00Z,personal,Dallas,approved
+22858,69000,50,2024-03-22T11:03:43.00Z,personal,Los Angeles,approved
+22859,21500,28,2024-03-22T11:13:40.00Z,personal,San Diego,approved
+22860,67000,44,2024-03-22T11:16:47.00Z,personal,San Diego,approved
+22861,21000,31,2024-03-22T11:18:11.00Z,housing,Portland,approved
+22862,34000,34,2024-03-22T11:25:23.00Z,educational,Kansas City,approved
+22863,18000,31,2024-03-22T11:28:21.00Z,housing,Miami,rejected
+22864,61000,16,2024-03-22T11:36:31.00Z,personal,Boston,approved
+22865,57000,41,2024-03-22T11:38:01.00Z,personal,San Francisco,approved
+22866,63000,20,2024-03-22T11:38:30.00Z,housing,Pittsburgh,rejected
+22867,33000,37,2024-03-22T11:41:46.00Z,housing,Philadelphia,rejected
+22868,61500,17,2024-03-22T11:41:48.00Z,educational,San Diego,approved
+22869,25500,47,2024-03-22T11:43:17.00Z,housing,St. Louis,rejected
+22870,23500,58,2024-03-22T11:43:20.00Z,personal,Boston,approved
+22871,52000,45,2024-03-22T11:43:51.00Z,personal,Los Angeles,approved
+22872,33500,46,2024-03-22T11:44:06.00Z,personal,Portland,approved
+22873,58000,18,2024-03-22T11:50:17.00Z,housing,Philadelphia,rejected
+22874,28500,47,2024-03-22T11:54:16.00Z,personal,Pittsburgh,approved
+22875,53500,37,2024-03-22T11:55:47.00Z,personal,Boston,approved
+22876,44000,28,2024-03-22T12:01:34.00Z,personal,Philadelphia,approved
+22877,69500,46,2024-03-22T12:02:00.00Z,personal,Philadelphia,approved
+22878,26500,41,2024-03-22T12:06:56.00Z,personal,St. Louis,approved
+22879,41000,30,2024-03-22T12:13:49.00Z,personal,New York City,approved
+22880,36000,38,2024-03-22T12:28:24.00Z,personal,Chicago,approved
+22881,60500,37,2024-03-22T12:28:53.00Z,housing,Boston,rejected
+22882,31500,34,2024-03-22T12:36:22.00Z,housing,Portland,approved
+22883,43000,36,2024-03-22T12:36:40.00Z,housing,Houston,rejected
+22884,53000,17,2024-03-22T12:46:07.00Z,housing,Washington D.C.,rejected
+22885,49500,48,2024-03-22T12:50:30.00Z,personal,Seattle,approved
+22886,74000,24,2024-03-22T12:52:43.00Z,personal,Boston,approved
+22887,58500,30,2024-03-22T13:13:47.00Z,personal,Seattle,approved
+22888,35500,16,2024-03-22T13:15:09.00Z,housing,Dallas,rejected
+22889,51500,35,2024-03-22T13:28:25.00Z,educational,Seattle,approved
+22890,46000,29,2024-03-22T13:28:54.00Z,personal,San Diego,approved
+22891,73500,29,2024-03-22T13:32:26.00Z,housing,Seattle,approved
+22892,51500,27,2024-03-22T13:37:34.00Z,personal,Dallas,approved
+22893,24000,35,2024-03-22T13:41:21.00Z,personal,Philadelphia,approved
+22894,24000,23,2024-03-22T13:47:09.00Z,educational,Seattle,approved
+22895,44000,21,2024-03-22T13:47:49.00Z,educational,Houston,approved
+22896,44500,51,2024-03-22T13:51:23.00Z,personal,Seattle,approved
+22897,50500,31,2024-03-22T13:53:23.00Z,housing,Seattle,rejected
+22898,51000,45,2024-03-22T14:04:22.00Z,educational,Dallas,approved
+22899,28500,44,2024-03-22T14:05:28.00Z,educational,San Diego,approved
+22900,26000,47,2024-03-22T14:05:57.00Z,personal,Los Angeles,approved
+22901,56000,58,2024-03-22T14:07:27.00Z,housing,Chicago,approved
+22902,68500,37,2024-03-22T14:11:09.00Z,personal,Pittsburgh,approved
+22903,23000,53,2024-03-22T14:13:31.00Z,housing,Atlanta,rejected
+22904,32000,46,2024-03-22T14:18:02.00Z,personal,Seattle,approved
+22905,42000,33,2024-03-22T14:28:42.00Z,personal,Boston,approved
+22906,39000,12,2024-03-22T14:30:11.00Z,personal,San Francisco,approved
+22907,38500,43,2024-03-22T14:33:48.00Z,housing,Pittsburgh,approved
+22908,26000,15,2024-03-22T14:50:55.00Z,educational,Miami,approved
+22909,45500,24,2024-03-22T14:53:35.00Z,housing,Boston,rejected
+22910,41000,22,2024-03-22T14:53:45.00Z,educational,Los Angeles,approved
+22911,24500,45,2024-03-22T14:56:48.00Z,personal,San Francisco,approved
+22912,16500,21,2024-03-22T15:06:35.00Z,educational,San Diego,approved
+22913,23500,45,2024-03-22T15:12:29.00Z,educational,Portland,approved
+22914,39500,47,2024-03-22T15:13:39.00Z,personal,San Francisco,approved
+22915,70500,48,2024-03-22T15:21:08.00Z,housing,New York City,approved
+22916,74000,17,2024-03-22T15:26:30.00Z,educational,Seattle,approved
+22917,66500,28,2024-03-22T15:37:52.00Z,housing,Chicago,approved
+22918,46500,38,2024-03-22T15:47:46.00Z,personal,Orlando,approved
+22919,64000,50,2024-03-22T15:50:22.00Z,personal,San Diego,approved
+22920,43500,51,2024-03-22T15:51:56.00Z,educational,Portland,approved
