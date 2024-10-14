@@ -20,7 +20,6 @@ function extract() returns [LoanRequest[], LoanApproval[]]|error {
     string loanRequestFile = "loan_request_2024_03_22.csv";
     LoanRequest[] loanRequests;
 
-    // download `approved_loans_2024_03_19.csv` file
     string loanApprovalsFile = "approved_loans_2024_03_22.csv";    
     LoanApproval[] loanApprovals;
 
